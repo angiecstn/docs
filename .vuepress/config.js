@@ -16,6 +16,11 @@ module.exports = {
 			title: 'Vue Vixens Workshops',
 			description: 'Anfänger-Workshops für Web-Entwicklung mit Vue.js',
 		},
+		'/it/': {
+			lang: 'it-IT',
+			title: 'Vue Vixens Workshops',
+			description: 'Workshop per insegnare sviluppo web con Vue.js per principianti',
+		},
 		'/jp/': {
 			lang: 'jp-JP',
 			title: 'Vue Vixens Workshops',
@@ -85,6 +90,23 @@ module.exports = {
 							'/de/workshop/full-day/ch4',
 							'/de/workshop/full-day/ch5',
 							'/de/workshop/full-day/appendix_1',
+						],
+					},
+				],
+			},
+			'/it/': {
+				selectText: 'Lingua',
+				label: 'Italiano',
+				sidebar: [
+					{
+						title: '🐶 Workshop giornaliero',
+						children: [
+							'/it/workshop/full-day/ch1',
+							'/it/workshop/full-day/ch2',
+							'/it/workshop/full-day/ch3',
+							'/it/workshop/full-day/ch4',
+							'/it/workshop/full-day/ch5',
+							'/it/workshop/full-day/appendix_1',
 						],
 					},
 				],
